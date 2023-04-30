@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'WikipediaSearch';
+
+  onGetTermSearch(event: string)
+  {
+    console.log(event);
+  }
+
 }
